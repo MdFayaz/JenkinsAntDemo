@@ -6,7 +6,7 @@
 
 <target name="compile"  depends="clean">
 <mkdir dir="build/classes"/>
-<javac srcdir="C:\Users\Fayaz\Desktop\Java Progs\JenkinsAntDemo" destdir="build/classes" includeantruntime="false"/>
+<javac srcdir="./" destdir="build/classes" includeantruntime="false"/>
 </target>
 
 <target name="jar"  depends="compile">
